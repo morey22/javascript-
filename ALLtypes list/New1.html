@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1>User Profile Form</h1>
+    <form>
+        <fieldset class="forminfo"> 
+            <legend>Personal Information</legend>
+            <label for="fullname">Full Name:- </label> <br>
+            <input type="text" id="fullname" name="fullname" required> <br><br>
+
+            <label for="emailaddress">Email Address :-</label> <br>
+            <input type="email" id="emailaddress" name="emailaddress" required> <br><br>
+
+            <label for="password">Password:-</label> <br>
+            <input type="password" id="password" name="password" required> <br><br>
+
+            <label for="confirm">Confirm Password</label> <br>
+            <input type="password" id="confirm" name="confirm" required> <br><br>
+
+            <label for="date">Date of Birth</label><br>
+            <input type="date" id="date" name="date" required> <br><br>
+
+            <span>Gender</span> <br>
+            <input type="radio" name="gender" id="male" value="male" required> <br>
+            <label for="male">Male</label> <br><br>
+
+            <input type="radio" name="gender" id="female" value="female" required><br>
+            <label for="female">Female</label><br><br>
+
+            <input type="radio" name="gender" id="other" value="other" required><br>
+            <label for="other">Other</label>
+
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone"> 
+
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="80" rows="10"></textarea>
+        </fieldset>
+    </form>
+    <input type="checkbox" name="terms" id="terms" value="yes" required> 
+    <label for="terms">I agree to the term conditions</label>
+    <button type="submit" name="submit" id="submit" style="background-color: blue; color: white;">Submit</button>
+    
+</body>
+</html>
